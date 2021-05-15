@@ -50,8 +50,6 @@
 
 	<div>
 		<h3>Berhasi Login<h3>
-		<h3>Nama : Dimas Agung P<h3>
-		<h3>NIM  : 192410101057<h3>
         <a href="logout.php">
             <button>Logout</button>
         </a>
