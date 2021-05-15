@@ -105,7 +105,7 @@
                     <div class="form-group"></div>
                         <div>
                             <a>
-                                <button>Login</button>
+                                <button value="Login" name="Login">Login</button>
                             </a>
                         </div>
                     </div>
@@ -116,5 +116,5 @@
 
 
 </body>
-<script src="jsformlogin.js"></script>
+
 </html>

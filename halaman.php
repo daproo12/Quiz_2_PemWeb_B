@@ -2,12 +2,10 @@
 	//mengambil variabel login yg telah di daftarkan cookies
 	$username=$_COOKIE['username'];
 	$password=$_COOKIE['password'];
-	if(!isset($username)) { //kondisi jika cookies user tidak ada maka halaman memanggil formlogin kembali
-		echo"<script>alert('Cookies anda belum terdaftar, silakan login kembali'); document.location='Login-form.php';</script>";
-	}else{ // jika cookies ada maka akan menampilkan halaman.php
-
+	if(!isset($username)) { 
+		echo"<script>alert('Cookies anda belum terdaftar, silakan login kembali'); document.location='index.php';</script>";
 	}
-	?>
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +52,7 @@
 		<h3>Berhasi Login<h3>
 		<h3>Nama : Dimas Agung P<h3>
 		<h3>NIM  : 192410101057<h3>
-        <a href="Login-form.php">
+        <a href="logout.php">
             <button>Logout</button>
         </a>
 	</div>
